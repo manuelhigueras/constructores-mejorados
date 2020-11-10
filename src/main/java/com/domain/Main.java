@@ -38,6 +38,19 @@ public class Main {
         
         d.aumentarComision();
         d.saluda();
+        
+        Empleado luis = new Gerente();
+        Empleado persona = new Secretario();
+        persona = new Director();
+        Object o = new Gerente();
+        
+        felicidadesNavidad(d);
+        
+    }
+    
+    public static void felicidadesNavidad(Empleado e){
+        System.out.println("FELIZ NAVIDAD");
+        e.saluda();
     }
     
 }
