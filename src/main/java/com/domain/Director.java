@@ -24,7 +24,7 @@ public class Director extends Empleado{
     
     @Override
     public String getDetails() {
-        return "Director{" + "nombre=" + nombre + ", salario=" + salario +
+        return "Director{" + "nombre=" + super.getNombre() + ", salario=" + salario +
                 ", fechaNacimiento=" + fechaNacimiento + ", vehiculo de Empresa =" + vehiculoEmpresa + "}";
     }
     

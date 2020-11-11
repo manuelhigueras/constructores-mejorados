@@ -26,6 +26,11 @@ public class Empleado {
         this.salario = 0;
     }
 
+    public Empleado(String nombre, double salario) {
+        this.nombre = nombre;
+        this.salario = salario;
+    }
+    
     public String getDetails() {
         return "Empleado{" + "nombre=" + nombre + ", salario=" + salario + ", fechaNacimiento=" + fechaNacimiento + '}';
     }

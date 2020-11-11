@@ -45,12 +45,16 @@ public class Main {
         Object o = new Gerente();
         
         felicidadesNavidad(d);
+        felicidadesNavidad(new Ingeniero());
         
     }
     
     public static void felicidadesNavidad(Empleado e){
         System.out.println("FELIZ NAVIDAD");
         e.saluda();
+        if(e instanceof Ingeniero){
+            System.out.println("... Tomatelo con mas calma y vete de vacaciones por un 1 año");
+        }
     }
     
 }

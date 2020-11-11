@@ -13,6 +13,10 @@ import java.util.Date;
  */
 public class Ingeniero extends Empleado{
     
+    public Ingeniero(String nombre, double sueldo) {
+        super(nombre, sueldo);
+    }
+    
     public Ingeniero() {
         super();
     }

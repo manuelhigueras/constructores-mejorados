@@ -18,6 +18,15 @@ public class Gerente extends Empleado{
         super();
     }
     
+    public Gerente(String nombre, double sueldo) {
+        super(nombre, sueldo);
+    }
+    
+    public Gerente(String nombre, double sueldo, String dep) {
+        super(nombre, sueldo);
+        this.departamento = dep;
+    }
+    
     @Override
     public String getDetails() {
         return "Gerente{" + "nombre=" + nombre + ", salario=" + salario +
@@ -27,6 +36,10 @@ public class Gerente extends Empleado{
     @Override
     public void saluda(){
         System.out.println("hola soy Gerente");
+    }
+    
+    public void organizarDepartamento(){
+        System.out.println("...Organizo el departamento de " + departamento);
     }
     
 }
