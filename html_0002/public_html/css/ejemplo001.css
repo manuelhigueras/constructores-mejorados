@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-dic-2020, 10:46:30
+    Author     : user
+*/
+
+body{
+    /*background-color: #2994b6;*/
+    background-color: white;
+}
+
+p{
+    margin: 10px;
+    border: 1px solid blue;
+    /*color: purple;*/
+}
+
+
+/*CLASS*/
+
+.estilo1{
+    color: red;
+    font-style: italic;
+}
+
+.invisible {
+    display: none;
+}
+
+/*ID*/
+
+#cabecera {
+    font-size: 2 em;
+    border-bottom: 1px solid grey;
+}
+
+/*ATRIBUTO*/
+
+input[type] {
+    background-color: greenyellow;
+}
+
+input[type = "date"] {
+    background-color: gold;
+}
+
+input[type = "text"] {
+    background-color: blueviolet;
+}
